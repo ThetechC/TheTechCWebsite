@@ -1,0 +1,186 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: rgb(254, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Ensures the navbar is at the top */
+    left: 0;
+    width: 100%; /* Takes full width */
+    z-index: 1000; /* Ensures navbar stays on top of other content */
+}
+
+header img#logo {
+    max-width: 100px;  /* Adjust the logo size */
+    height: auto;
+    margin-right: 20px; /* Add space between logo and title */
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-right: 20px; /* Space between title and nav */
+}
+
+/* Navigation */
+header nav {
+    margin-left: auto; /* This pushes the nav to the right */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 200px 50px;
+    background-image: url('image/home1.jpg');
+    color: white;
+    font-size: xx-large;
+}
+
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background: rgb(2, 2, 2);
+    color: #f4f4f4;
+
+}
+
+#about p {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 20px;
+    text-align: center;
+    background: rgb(2, 2, 2);
+    color: #f4f4f4;
+}
+
+#services .service {
+    margin: 20px;
+    padding: 20px;
+    background: rgb(2, 2, 2);
+    display: inline-block;
+    width: 30%;
+}
+
+#services .service img {
+    width: 100%;  /* Makes the image fill the container width */
+    height: 200px; /* Fixed height for equal image size */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background: rgb(2, 2, 2);
+    color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    width: 45%; /* Adjust width */
+    text-align: left;
+    padding: 30px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #0097a7; /* Icon color */
+    font-size: 24px; /* Icon size */
+    margin-right: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #f4f4f4; /* Color change on hover */
+}
+
+#contact form {
+    width: 45%; /* Adjust width */
+    padding: 20px;
+}
+
+input, textarea {
+    background-color: black;
+    color: #f4f4f4;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #0097a7;
+}
+
+
+button {
+    background: #00bcd4;
+    color: rgb(2, 2, 2);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0097a7;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #services .service {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
