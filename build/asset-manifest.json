@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe1b63fa.css",
+    "main.js": "/static/js/main.0a97c775.js",
+    "static/media/cybersecurity.webp": "/static/media/cybersecurity.219b9e76ec9f4036aedd.webp",
+    "static/media/website.webp": "/static/media/website.dd5fee796797bfa81059.webp",
+    "static/media/devops.webp": "/static/media/devops.9ae9c3b8a2c3a01b0180.webp",
+    "static/media/ai.webp": "/static/media/ai.f8f02fbaacaf0590cd1f.webp",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/cloud.webp": "/static/media/cloud.4cd9b8244eb8db5adb5d.webp",
+    "static/media/app.webp": "/static/media/app.58276ba29b8345fb47bf.webp",
+    "static/media/about-us.webp": "/static/media/about-us.795d25b1b79a1776e78d.webp",
+    "static/media/seo.webp": "/static/media/seo.bb9dcb964c1280a65e66.webp",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/logo.png": "/static/media/logo.1cf083a19a4d511a949f.png",
+    "static/media/home1.jpg": "/static/media/home1.6b31c21a4edc10dbf3aa.jpg",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/staffing.webp": "/static/media/staffing.6200a28574fc602ff06e.webp",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/index.html",
+    "main.fe1b63fa.css.map": "/static/css/main.fe1b63fa.css.map",
+    "main.0a97c775.js.map": "/static/js/main.0a97c775.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe1b63fa.css",
+    "static/js/main.0a97c775.js"
+  ]
+}
